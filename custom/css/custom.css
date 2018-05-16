@@ -1,0 +1,111 @@
+nav.navbar:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.button1:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+div.card {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+div.cardHeader {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+div.cardContainer {
+    padding: 10px;
+}
+
+
+.div-hide {
+	display: none;
+}
+
+.kv-file-zoom {
+	display: none;
+}
+
+div.kv-avatar div.file-input div.file-preview {
+	width: 200px;
+}
+
+/*login form*/
+.vertical {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.navbar-default .navbar-nav > .active{
+    color: #000;
+   background:rgb(216, 222, 233);
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #000;
+      background:rgb(216, 222, 233);
+    
+ }
+.dataTables_filter
+{
+  float: right;
+}
+.dataTables_paginate.paging_simple_numbers
+{
+  float: right;
+}
+.paginate_button.current
+{
+  border: 3px;
+}
+.tooltip {
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: silver;
+    color:red;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.form-control
+{
+  background-color: #ffffff;
+border: #5b39ce solid 1px;
+border-radius: 3px;
+color: #66615b;
+font-size: 14px;
+transition: background-color 0.3s ease 0s;
+padding: 7px 18px;
+height: 40px;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: none;
+}
+
+
+
+
